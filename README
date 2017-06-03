@@ -1,0 +1,51 @@
+HOW TO USE GITHUB ON UBUNTU
+
+1. Install github
+	sudo apt-get install git
+
+2. Cofig github
+	git config --global user.name "user_name"
+	git config --global user.email "email_id"
+
+3. Create local repository
+	git init "repo_name"
+	cd "repo_name"
+
+4. Create README file
+	gedit README, write something
+
+5. Index file/add file to the staging area 
+	git add README
+
+6. Check repo status
+	git status
+
+7. Commit changes
+	git commit -m "note"
+
+8. Create a repo at github.com
+
+9. Connect to the created repo
+	git remote add origin https://github.com/user_name/repo_name.git
+
+10. Upload/push local files to the github repo
+	git push -u origin master
+
+11. Pull down changes
+	git pull origin master
+
+12. Check differeces
+	git diff
+
+13. Create a new branch
+	git branch branch_name
+
+14. Delete branch
+	git branch -d branch_name
+
+14. Switch branch
+	git checkout branch_name
+
+15. Merge branch
+	git branch des_branch # switch to destination branch (the branch to be merged)
+	git merge src_branch # merge (des_branch will be a copy of src_branch)
