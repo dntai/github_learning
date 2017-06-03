@@ -49,3 +49,9 @@ HOW TO USE GITHUB ON UBUNTU
 15. Merge branch
 	git branch des_branch # switch to destination branch (the branch to be merged)
 	git merge src_branch # merge (des_branch will be a copy of src_branch)
+
+16. Skip enter user and pw every pushing
+	$ git config credential.helper store
+	$ git push http://example.com/repo.git
+	Username: <type your username>
+Password: <type your password>
