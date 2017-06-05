@@ -24,8 +24,8 @@
 	```
 5.1 Remove files
 	```Shell
-	git rm file_name  <--- remove file_name from local and repo
-	git rm --cached file_name  <--- remove file_name from repo ONLY
+	git rm file_name  # remove file_name from local and repo
+	git rm --cached file_name  # remove file_name from repo ONLY
 	```
 6. Check repo status
 	```Shell
